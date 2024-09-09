@@ -2,23 +2,23 @@
 ## Network Service AWS
 AWS (Amazon Web Services) menawarkan berbagai network service (layanan jaringan) yang direncang untuk  menyediakan infrastruktur jaringan yang aman, scalable, dan fleksibel bagi pengguna untuk menghubungkan, mengelola, dan mengamankan sumber daya mereka di cloud.
 ## Daftar Network Service AWS
-### Amazon Virtual Private Cloud (Amazon VPC)
+### 1. Amazon Virtual Private Cloud (Amazon VPC)
 Amazon VPC memungkinkan pengguna untuk membuat jaringan virtual di dalam AWS yang terisolasi dari jaringan lain. Pengguna dapat mendefinisikan ruang alamat IP, subnet, tabel routing, dan gateway jaringan untuk mengontrol lalu lintas yang masuk dan keluar. Amazon VPC memungkinkan pengaturan yang aman untuk menjalankan sumber daya AWS dalam lingkungan yang sepenuhnya terpisah.
-### AWS Direct Connect
+### 2. AWS Direct Connect
 AWS Direct Connect menyediakan koneksi jaringan pribadi yang aman dan performa tinggi antara pusat data pengguna dan AWS. Layanan ini memungkinkan transfer data yang lebih cepat dengan latensi rendah dan lebih konsisten dibandingkan koneksi internet publik. Direct Connect juga mendukung berbagai opsi bandwidth yang dapat disesuaikan dengan kebutuhan bisnis.
-### AWS Transit Gateway
+### 3. AWS Transit Gateway
 AWS Transit Gateway memungkinkan pengguna untuk menghubungkan beberapa VPC dan jaringan on-premises ke dalam satu gateway pusat. Ini mempermudah pengelolaan dan skala jaringan yang besar, mengurangi kompleksitas routing, dan meningkatkan efisiensi jaringan. Transit Gateway mendukung konektivitas yang aman dan efisien antar wilayah AWS (AWS Regions).
-### AWS Global Accelerator
+### 4. AWS Global Accelerator
 AWS Global Accelerator meningkatkan kinerja aplikasi global dengan memanfaatkan jaringan AWS global. Layanan ini menyediakan endpoint statis yang memudahkan distribusi trafik aplikasi ke berbagai wilayah geografis berdasarkan kondisi jaringan real-time, sehingga mengurangi latensi dan meningkatkan kecepatan aplikasi bagi pengguna di seluruh dunia.
-### Amazon CloudFront
+### 5. Amazon CloudFront
 Amazon CloudFront adalah layanan Content Delivery Network (CDN) yang mengantarkan konten (seperti situs web, video, aplikasi, dan API) dengan latensi rendah dan kecepatan tinggi. CloudFront menggunakan jaringan edge locations di seluruh dunia untuk menyimpan salinan konten yang sering diakses dekat dengan lokasi pengguna, yang mempercepat waktu pemuatan dan mengurangi beban server asli.
-### AWS PrivateLink
+### 6. AWS PrivateLink
 AWS PrivateLink memungkinkan layanan yang di-host di AWS, seperti Amazon S3 atau layanan pengguna yang berjalan pada Amazon ECS, diakses secara aman melalui VPC endpoint tanpa harus melalui internet publik. PrivateLink meningkatkan keamanan dengan meminimalkan eksposur data dan mengurangi risiko serangan.
-### Elastic Load Balancing (ELB)
+### 7. Elastic Load Balancing (ELB)
 Elastic Load Balancing mendistribusikan lalu lintas aplikasi secara otomatis di beberapa target, seperti instance Amazon EC2, container, alamat IP, dan fungsi Lambda, untuk memastikan aplikasi tetap tersedia dan dapat diskalakan. AWS menawarkan tiga jenis load balancer: Application Load Balancer, Network Load Balancer, dan Gateway Load Balancer.
-### Amazon Route 53
+### 8. Amazon Route 53
 Amazon Route 53 adalah layanan Domain Name System (DNS) web yang sangat tersedia dan dapat diskalakan. Layanan ini mengarahkan pengguna akhir ke aplikasi internet dengan cara yang paling andal dan efisien, menggunakan jaringan global AWS untuk memastikan kecepatan resolusi yang cepat dan tingkat ketersediaan yang tinggi.
-### AWS VPN
+### 9. AWS VPN
 AWS VPN menyediakan konektivitas jaringan yang aman antara jaringan on-premises dan AWS, menggunakan dua tipe koneksi: AWS Site-to-Site VPN untuk koneksi jaringan yang lebih besar, dan AWS Client VPN untuk koneksi pengguna jarak jauh. Keduanya menawarkan enkripsi data yang kuat untuk melindungi informasi sensitif selama transmisi.
-### AWS Network Firewall
+### 10. AWS Network Firewall
 AWS Network Firewall adalah firewall jaringan yang terkelola yang dapat digunakan untuk mengontrol lalu lintas masuk dan keluar dari VPC berdasarkan aturan yang telah ditentukan. Ini mencakup fitur filtering konten, deteksi intrusi, dan pencegahan serangan yang dapat dikustomisasi untuk memenuhi persyaratan keamanan khusus.
