@@ -4,6 +4,7 @@ AWS (Amazon Web Services) menawarkan berbagai network service (layanan jaringan)
 ## Daftar Network Service AWS
 ### 1. Amazon Virtual Private Cloud (Amazon VPC)
 Amazon VPC memungkinkan pengguna untuk membuat jaringan virtual di dalam AWS yang terisolasi dari jaringan lain. Pengguna dapat mendefinisikan ruang alamat IP, subnet, tabel routing, dan gateway jaringan untuk mengontrol lalu lintas yang masuk dan keluar. Amazon VPC memungkinkan pengaturan yang aman untuk menjalankan sumber daya AWS dalam lingkungan yang sepenuhnya terpisah.
+
 ![image](https://github.com/user-attachments/assets/2cb0803f-21a5-4445-a885-304e15883150)
 - Virtual Private Cloud (VPC) vs Private Cloud:
   - Virtual Private Cloud (VPC) adalah jaringan virtual yang berjalan di dalam infrastruktur cloud publik yang disediakan oleh penyedia layanan, dalam hal ini AWS. Pengguna (tenant) membuat dan mengelola VPC mereka sendiri di atas cloud publik, seperti AWS, dengan kontrol penuh terhadap lingkungan jaringan virtual mereka.
