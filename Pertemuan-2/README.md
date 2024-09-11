@@ -1,4 +1,4 @@
-# Pertemuan 2 LBE NCC 2024
+# Pertemuan 2 LBE NCC 2024 
 ## Network Service AWS
 AWS (Amazon Web Services) menawarkan berbagai network service (layanan jaringan) yang direncang untuk  menyediakan infrastruktur jaringan yang aman, scalable, dan fleksibel bagi pengguna untuk menghubungkan, mengelola, dan mengamankan sumber daya mereka di cloud.
 ## Daftar Network Service AWS
